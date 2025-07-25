@@ -1,1 +1,1 @@
-document.getElementById("fardnumber").innerText = `You are watching Fard #${window.location.pathname.substring(1)}`
+let fard = document.getElementById("fard");
