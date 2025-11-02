@@ -36,11 +36,18 @@ html, body {
 }
 
 #maincontent {
+    display: grid;
+    justify-items: center;
     background: white;
     border: 3px solid black;
     border-radius: 10px;
     padding: 10px;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#fard {
+    max-width: 100%;
 }
 
 h1 {
